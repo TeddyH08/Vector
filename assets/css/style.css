@@ -249,6 +249,10 @@ h3 {
     font-size: 200%;
 }
 
+.tex {
+    font-size: 125%;
+}
+
 .artid {
     display: flex;
     width: 25%;
