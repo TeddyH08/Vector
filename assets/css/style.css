@@ -9,7 +9,41 @@ body {
     margin: 0;
 }
 
-/* index */
+
+/* Jeux */
+
+.divpost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.img:hover {
+    width: 300px;
+    transform:zoom;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0px gray;
+  }
+
+.blockflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.img{
+    border-radius: 4px;
+    width: 200px;
+    transition: width 1s, transform 2s;
+}
+
+/* article */
 
 .article {
     display: flex;
@@ -67,6 +101,10 @@ body {
     flex: 1 1 auto;
     flex-direction: column;
     user-select: none;
+}
+
+h2{
+    text-align: center;
 }
 
 h3 {
