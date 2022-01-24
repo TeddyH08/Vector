@@ -239,7 +239,7 @@ h3 {
     flex-direction: column;
     width: 85%;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px 0px gray;
+    box-shadow: 0px 0px 5px 0px gray;
     text-decoration: none;
     color: black;
     transition: 250ms;
@@ -290,4 +290,42 @@ h3 {
     flex: 1 1 auto;
     flex-direction: column;
     user-select: none;
+}
+
+@media (max-width: 1100px) {
+    .arti {
+        flex-direction: column;
+    }
+    .artig {
+        width: 100%;
+    }
+    .artid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .arti2 {
+        width: 30%;
+    }
+}
+
+@media (max-width: 730px) {
+    .arti {
+        flex-direction: column;
+    }
+    .artig {
+        width: 100%;
+    }
+    .artid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .arti2 {
+        width: 50%;
+    }
 }
