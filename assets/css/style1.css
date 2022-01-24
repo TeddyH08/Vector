@@ -73,13 +73,7 @@ nav {
     text-transform: uppercase;
   }
   
-  a:hover,
-  a.active {
-    background: none;
-    /* color: white; */
-  
-  }
-  
+
   @media (max-width: 858px) {
     .checkbtn {
       background-color: white;
