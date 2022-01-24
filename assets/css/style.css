@@ -77,7 +77,7 @@ body {
   a:hover,
   a.active {
     background: none;
-    color: white;
+    /* color: white; */
   
   }
   

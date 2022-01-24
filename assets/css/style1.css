@@ -9,6 +9,24 @@ body {
     margin: 0;
 }
 
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container {
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid darkred;
+    display: flex;
+    margin: 1px solid #fff;
+    margin-top: 25px;
+    padding-top: 25px;
+    justify-content: center;
+    box-shadow: 0px 3px 15px
+  }
+  
+
 nav {
     top: 0;
     left: 0;
@@ -58,7 +76,7 @@ nav {
   a:hover,
   a.active {
     background: none;
-    color: white;
+    /* color: white; */
   
   }
   
@@ -116,6 +134,55 @@ nav {
   
     }
   }
+
+  .fas fa-bars {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
+  .fa,
+  .fas {
+    font-size: 32px;
+    font-weight: 900;
+  }
+
 
 h3 {
     color:burlywood;
